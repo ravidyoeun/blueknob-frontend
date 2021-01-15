@@ -162,7 +162,7 @@ class App extends React.Component {
   render() {
     const { value, suggestions } = this.state;
     const inputProps = {
-      placeholder: "Type 'c'",
+      placeholder: "Find your Model Number",
       value,
       onChange: this.onChange,
     };
